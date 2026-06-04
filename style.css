@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(30, 0, 77);
+}
+
+/* .container {
+  width: 50%;
+  height: 50%;
+  background: #853f3f;
+  margin: 0 auto;
+} */
+.container {
+  direction: rtl;
+}
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.tasks-table {
+  background: rgb(239, 239, 239);
+  width: 60%;
+
+  margin-top: 80px;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  background: #c779ca;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header h1 {
+  display: inline;
+}
+.header button {
+  float: right;
+  background: #cac2c2;
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.5);
+}
+button.circular {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.tasks {
+  padding: 20px;
+}
+.task {
+  display: flex;
+  background: #ffffff;
+  padding: 4px;
+  border-bottom: 1px solid #000000;
+  transition: all 0.3s ease;
+}
+.done{
+  background: rgb(67, 118, 42);
+ 
+}
+.task:hover {
+  box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.8);
+}
+.task-info {
+  width: 70%;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.action .Delete {
+  background: rgb(129, 5, 5);
+  color: #fff;
+}
+.action .done {
+  background: rgb(67, 118, 42);
+  color: #fff;
+}
+.action .edite {
+  background: rgb(92, 92, 210);
+  color: #fff;
+}
+.action .Cancel {
+  background: rgb(118, 0,101);
+  color: #fff;
+}

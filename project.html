@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <!-- Center div -->
+        <div class="container-center">
+            <!-- Tasks Table -->
+            <div class="tasks-table">
+                <!--/Header/ -->
+                <div class="header">
+                    <h1>Tasks</h1>
+                    <button class="circular" id="add-btn"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <!-- /Header/-->
+                <!--TAsks-->
+                <div class="tasks" id="tasks" >
+                    <!--Task -->
+                     <div class="task">
+                        <!-- Tasks Info -->
+                        <div class="task-info">
+                            <h2>Task 1</h2>
+                            <div>
+                                <span>10/10/2030</span>
+                            </div>
+                            
+                        </div>
+                        <!-- /Tasks Info /-->
+                        <!-- Action -->
+                         <div class="action">
+                            <button class="circular Delete" onclick="deleteTask()">D</button>
+                            <button class="circular done"></button>
+                            <button class="circular edite">E</button>
+
+                         </div>
+                        <!-- /Action/ -->
+
+                     </div>
+                     <!-- /Task/ -->
+
+                </div>
+                <!--/TAsks/-->
+            </div>
+             <!-- /Tasks Table/ -->
+        </div>
+        <!--/ Center div /-->
+    </div>
+
+</body>
+<script src="project.js"></script>
+</html>
