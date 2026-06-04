@@ -104,5 +104,31 @@ button.circular {
 .task-info h2{
   font-size: 16px;
 }
+.task-info {
+    width: 60%;
+  }
+  .action {
+    width: 40%;}
 
+/* .task-info span {
+    font-size: 12px;
+  } */
+
+  /* .task {
+    flex-wrap: wrap;
+    padding: 8px;
+  }
+
+  
+  .action {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-top: 8px;
+  } */
+
+  .header h1 {
+    font-size: 20px;
+
+}
 }
