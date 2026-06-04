@@ -41,7 +41,7 @@ let content=`
         <div class="task-info">
             <h2>${task.title}</h2>
             <div>
-            <span>${task.date}</span>
+            <p>${task.date}</p>
             </div>             
             </div>
     <!-- /Tasks Info /-->
