@@ -92,3 +92,17 @@ button.circular {
   background: rgb(118, 0,101);
   color: #fff;
 }
+@media (max-width: 768px) {
+  .tasks-table {
+    width: 90%;
+  }
+  button.circular {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.task-info h2{
+  font-size: 16px;
+}
+
+}
